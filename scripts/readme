@@ -1,0 +1,7 @@
+### Scripts
+En esta carpeta se almacenan los scripts de Python utilizados para:
+* La preparación de los datos (textos no estructurados de las órdenes de trabajo) - 01TextPrep.ipynb
+* Generar la representación de documentos - 02Embedding
+* Realizar extracción de características y entrenar un modelo no supervisado - 03ReduccionDimModelado_Unigram
+* Realizar extracción de características y entrenar un modelo no supervisado - 04Modelado_Clustering_Bigram
+* Entrenar un modelo de reconocimiento de entidades (NER) basado en reglas - 05NER_EntityRuler
