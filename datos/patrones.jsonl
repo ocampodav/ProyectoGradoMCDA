@@ -1,0 +1,365 @@
+{"label": "CAUSA", "pattern": [{"LOWER":{"REGEX":"^abiert[ao]s?$"}}]}
+{"label": "CAUSA", "pattern": [{"LOWER":"acido"},{"LOWER":{"REGEX":"^sulfi?(hi)?drico$"}}]}
+{"label": "CAUSA", "pattern": [{"LOWER":{"REGEX":"^acoples?$"}},{"LOWER":{"REGEX":"^sueltos?$"}}]}
+{"label": "CAUSA", "pattern": [{"LOWER":{"REGEX":"^agujas?$"}},{"LOWER":{"REGEX":"^pegadas?$"}}]}
+{"label": "CAUSA", "pattern": [{"LOWER":{"REGEX":"^altas?$"}},{"LOWER":{"REGEX":"^temperaturas?$"}},{"LOWER":"aire", "OP":"?"}]}
+{"label": "CAUSA", "pattern": [{"LOWER":{"REGEX":"^altas?$"}},{"LOWER":{"REGEX":"^vibracion(es)?$"}}]}
+{"label": "CAUSA", "pattern": [{"LOWER":"alto"},{"LOWER":"nivel"},{"LOWER":"aceite"}]}
+{"label": "CAUSA", "pattern": [{"LOWER":"apertura"}]}
+{"label": "CAUSA", "pattern": [{"LOWER":"ausencia"},{"LOWER":"tension"}]}
+{"label": "CAUSA", "pattern": [{"LOWER":{"REGEX":"^bab+it+$"}},{"LOWER":"fusionado"}]}
+{"label": "CAUSA", "pattern": [{"LOWER":"baja"},{"LOWER":"eficiencia"}]}
+{"label": "CAUSA", "pattern": [{"LOWER":"baja"},{"LOWER":"presion"},{"LOWER":"aire", "OP":"?"},{"LOWER":"aceite", "OP":"?"}]}
+{"label": "CAUSA", "pattern": [{"LOWER":"baja"},{"LOWER":"resistencia"}]}
+{"label": "CAUSA", "pattern": [{"LOWER":"baja"},{"LOWER":"rigidez"},{"LOWER":"dielectrica"}]}
+{"label": "CAUSA", "pattern": [{"LOWER":"baja"},{"LOWER":"tension"}]}
+{"label": "CAUSA", "pattern": [{"LOWER":"bajo"},{"LOWER":"aislamiento"}]}
+{"label": "CAUSA", "pattern": [{"LOWER":"bajo"},{"LOWER":"nivel"},{"LOWER":"aceite", "OP":"?"}]}
+{"label": "CAUSA", "pattern": [{"LOWER":"bajo"},{"LOWER":"nivel"},{"LOWER":"aislamiento"}]}
+{"label": "CAUSA", "pattern": [{"LOWER":"bajo"},{"LOWER":"voltaje"}]}
+{"label": "CAUSA", "pattern": [{"LOWER":{"REGEX":"^borneras?$"}},{"LOWER": {"IN" : ["floja", "flojas", "quemada", "quemadas"]}}]}
+{"label": "CAUSA", "pattern": [{"LOWER":{"REGEX":"^bloque(o|ado|ada)s?$"}}]}
+{"label": "CAUSA", "pattern": [{"LOWER":{"REGEX":"^cables?$"}},{"LOWER":{"REGEX":"^sueltos?$"}}]}
+{"label": "CAUSA", "pattern": [{"LOWER":"calentamiento"}]}
+{"label": "CAUSA", "pattern": [{"LOWER": {"FUZZY": "chisporroteo"}}]}
+{"label": "CAUSA", "pattern": [{"LOWER":"cierre"},{"LOWER":"intempestivo"}]}
+{"label": "CAUSA", "pattern": [{"LOWER":{"REGEX":"^colmata(cion|do|da)s?$"}}]}
+{"label": "CAUSA", "pattern": [{"LOWER":{"REGEX":"^conector(es)?$"}},{"LOWER":{"REGEX":"^contaminados?$"}}]}
+{"label": "CAUSA", "pattern": [{"LOWER":{"REGEX":"^conector(es)?$"}},{"LOWER":{"REGEX":"^deteriorados?$"}}]}
+{"label": "CAUSA", "pattern": [{"LOWER":{"REGEX":"^conexion(es)?$"}},{"LOWER":{"REGEX":"^sueltas?$"}}]}
+{"label": "CAUSA", "pattern": [{"LOWER":{"REGEX":"^contactos?$"}},{"LOWER":{"REGEX":"quemados?$"}}]}
+{"label": "CAUSA", "pattern": [{"LOWER":{"REGEX":"^contamina(cion|do|da)s?$"}}]}
+{"label": "CAUSA", "pattern": [{"LOWER":{"REGEX":"^corrientes?$"}},{"LOWER":"eje"}]}
+{"label": "CAUSA", "pattern": [{"LOWER":{"REGEX":"^corto(circuito)?$"}}]}
+{"label": "CAUSA", "pattern": [{"LOWER":"corto"},{"LOWER":"bornera"}]}
+{"label": "CAUSA", "pattern": [{"LOWER":{"REGEX":"^defectuosos?$"}}]}
+{"label": "CAUSA", "pattern": [{"LOWER":{"REGEX":"^deficientes?$"}}]}
+{"label": "CAUSA", "pattern": [{"LOWER":{"REGEX":"^desacopl(e|ado|ada)s?$"}}]}
+{"label": "CAUSA", "pattern": [{"LOWER":{"REGEX":"^desactivad[ao]s?$"}}]}
+{"label": "CAUSA", "pattern": [{"LOWER":{"REGEX":"^desajust(e|ado|ada)s?$"}}]}
+{"label": "CAUSA", "pattern": [{"LOWER":{"REGEX":"^desalinea(cion|do|da)s?$"}}]}
+{"label": "CAUSA", "pattern": [{"LOWER":{"REGEX":"^descalibra(cion|do|da)s?$"}}]}
+{"label": "CAUSA", "pattern": [{"LOWER":{"REGEX":"^descompensa(cion|do|da)s?$"}}]}
+{"label": "CAUSA", "pattern": [{"LOWER":{"REGEX":"^desgast(e|ado|ada)s?$"}}]}
+{"label": "CAUSA", "pattern": [{"LOWER":"desperfecto"}]}
+{"label": "CAUSA", "pattern": [{"LOWER":{"REGEX":"^desprendid[ao]s?$"}}]}
+{"label": "CAUSA", "pattern": [{"LOWER":{"REGEX":"^deterior(o|ado|ada)s?$"}}]}
+{"label": "CAUSA", "pattern": [{"LOWER":"deterioro"},{"LOWER":"sello"}]}
+{"label": "CAUSA", "pattern": [{"LOWER":{"REGEX":"^dispar(o|ado|ada)s?$"}}]}
+{"label": "CAUSA", "pattern": [{"LOWER":"disparo"},{"LOWER":"termico"}]}
+{"label": "CAUSA", "pattern": [{"LOWER":{"REGEX":"^electrovalvulas?$"}},{"LOWER":{"REGEX":"^pegadas?$"}}]}
+{"label": "CAUSA", "pattern": [{"LOWER":{"REGEX":"^empaques?$"}},{"LOWER":{"REGEX":"^malos?$"}}]}
+{"label": "CAUSA", "pattern": [{"LOWER":{"REGEX":"^escobillas?$"}},{"LOWER":{"REGEX":"^sueltas?$"}}]}
+{"label": "CAUSA", "pattern": [{"LOWER":"explosion"}]}
+{"label": "CAUSA", "pattern": [{"LOWER":{"REGEX":"^fall(a|ado|ada)s?$"}}]}
+{"label": "CAUSA", "pattern": [{"LOWER":"falla"},{"LOWER":{"REGEX":"^actuador(es)?$"}}]}
+{"label": "CAUSA", "pattern": [{"LOWER":"falla"},{"LOWER":"alimentacion"}]}
+{"label": "CAUSA", "pattern": [{"LOWER":"falla"},{"LOWER":"aplicacion"}]}
+{"label": "CAUSA", "pattern": [{"LOWER":"falla"},{"LOWER":"arranque"}]}
+{"label": "CAUSA", "pattern": [{"LOWER":"falla"},{"LOWER":"bornera"}]}
+{"label": "CAUSA", "pattern": [{"LOWER":"falla"},{"LOWER":{"REGEX":"^comunicacion(es)?$"}}]}
+{"label": "CAUSA", "pattern": [{"LOWER":"falla"},{"LOWER":"conmutacion"}]}
+{"label": "CAUSA", "pattern": [{"LOWER":"falla"},{"LOWER":"control"}]}
+{"label": "CAUSA", "pattern": [{"LOWER":"falla"},{"LOWER":"electrica"},{"LOWER":"conexion", "OP":"?"}]}
+{"label": "CAUSA", "pattern": [{"LOWER":"falla"},{"LOWER":"conexion"}]}
+{"label": "CAUSA", "pattern": [{"LOWER":"falla"},{"LOWER":"electrica"}]}
+{"label": "CAUSA", "pattern": [{"LOWER":"falla"},{"LOWER":"fuente"}]}
+{"label": "CAUSA", "pattern": [{"LOWER":"falla"},{"LOWER":"grave"}]}
+{"label": "CAUSA", "pattern": [{"LOWER":"falla"},{"LOWER":"interruptor"}]}
+{"label": "CAUSA", "pattern": [{"LOWER":"falla"},{"LOWER":"mayor"}]}
+{"label": "CAUSA", "pattern": [{"LOWER":"falla"},{"LOWER":"mecanica"}]}
+{"label": "CAUSA", "pattern": [{"LOWER":"falla"},{"LOWER":{"REGEX":"^medi(cion|da)$"}}]}
+{"label": "CAUSA", "pattern": [{"LOWER":"falla"},{"LOWER":"modulo"}]}
+{"label": "CAUSA", "pattern": [{"LOWER":"falla"},{"LOWER":"nivel"},{"LOWER":"aceite", "OP":"?"}]}
+{"label": "CAUSA", "pattern": [{"LOWER":"falla"},{"LOWER":"plc"}]}
+{"label": "CAUSA", "pattern": [{"LOWER":"falla"},{"LOWER":"general"}]}
+{"label": "CAUSA", "pattern": [{"LOWER":"falla"},{"LOWER":"posicion"}]}
+{"label": "CAUSA", "pattern": [{"LOWER":"falla"},{"LOWER":"presion"}]}
+{"label": "CAUSA", "pattern": [{"LOWER":"falla"},{"LOWER":"puente"}]}
+{"label": "CAUSA", "pattern": [{"LOWER":"falla"},{"LOWER":"rele"}]}
+{"label": "CAUSA", "pattern": [{"LOWER":"falla"},{"LOWER":"senal"},{"LOWER":"temperatura", "OP":"?"}]}
+{"label": "CAUSA", "pattern": [{"LOWER":"falla"},{"LOWER":"sensor"}]}
+{"label": "CAUSA", "pattern": [{"LOWER":"falla"},{"LOWER":"software"}]}
+{"label": "CAUSA", "pattern": [{"LOWER":"falla"},{"LOWER":"terminal"}]}
+{"label": "CAUSA", "pattern": [{"LOWER":"falla"},{"LOWER":"tierra"}]}
+{"label": "CAUSA", "pattern": [{"LOWER":"falla"},{"LOWER":"transferencia"}]}
+{"label": "CAUSA", "pattern": [{"LOWER":"falsa"},{"LOWER":"alarma"}]}
+{"label": "CAUSA", "pattern": [{"LOWER":{"REGEX":"^fisur(a|ado|ada)s?$"}}]}
+{"label": "CAUSA", "pattern": [{"LOWER":"fisura"},{"LOWER": {"IN" : ["cangilon", "rodete"]}}]}
+{"label": "CAUSA", "pattern": [{"LOWER":{"REGEX":"^floj[ao]s?$"}}]}
+{"label": "CAUSA", "pattern": [{"LOWER":{"REGEX":"^fractur(a|ado|ada)s?$"}}]}
+{"label": "CAUSA", "pattern": [{"LOWER":"fuego"}]}
+{"label": "CAUSA", "pattern": [{"LOWER":"fuera"},{"LOWER":"orden"}]}
+{"label": "CAUSA", "pattern": [{"LOWER":{"REGEX":"^fugas?$"}},{"LOWER": {"IN" : ["aceite", "agua", "aire", "sf6"]},"OP":"?"}]}
+{"label": "CAUSA", "pattern": [{"LOWER":{"REGEX":"^fusibles?$"}},{"LOWER":{"REGEX":"^quemados?$"}}]}
+{"label": "CAUSA", "pattern": [{"LOWER":"humo"}]}
+{"label": "CAUSA", "pattern": [{"LOWER":"mal"},{"LOWER":"contacto"}]}
+{"label": "CAUSA", "pattern": [{"LOWER":"mal"},{"LOWER":"estado"}]}
+{"label": "CAUSA", "pattern": [{"LOWER":"mala?"},{"LOWER":{"REGEX":"^posicion(amiento)?$"}}]}
+{"label": "CAUSA", "pattern": [{"LOWER":{"REGEX":"^micros[uw]it?che?s?$"}},{"LOWER":"descalibrados?"}]}
+{"label": "CAUSA", "pattern": [{"LOWER":{"REGEX":"^obstru(ccion|ido|ida)s?$"}}]}
+{"label": "CAUSA", "pattern": [{"LOWER":"obstruccion"},{"LOWER":{"REGEX":"^ductos'?$"}}]}
+{"label": "CAUSA", "pattern": [{"LOWER":{"REGEX":"^os?cilacion(es)?$"}}]}
+{"label": "CAUSA", "pattern": [{"LOWER":{"REGEX":"^os?cilacion(es)?$"}},{"LOWER":{"REGEX":"^deflector(es)?$"}}]}
+{"label": "CAUSA", "pattern": [{"LOWER":{"REGEX":"^os?cilacion(es)?$"}},{"LOWER":{"REGEX":"^medida(s)?$"}}]}
+{"label": "CAUSA", "pattern": [{"LOWER":{"REGEX":"^os?cilacion(es)?$"}},{"LOWER":{"REGEX":"^valvula(s)?$"}}]}
+{"label": "CAUSA", "pattern": [{"LOWER":"paro"}]}
+{"label": "CAUSA", "pattern": [{"LOWER":{"REGEX":"^pas[eo]$"}},{"LOWER":"contraflujo"}]}
+{"label": "CAUSA", "pattern": [{"LOWER":{"REGEX":"^pas[eo]$"}},{"LOWER": {"IN" : ["aceite", "agua", "aire"]}}]}
+{"label": "CAUSA", "pattern": [{"LOWER":{"REGEX":"^peg(a|ado|ada)s?$"}},{"LOWER":"mecanica", "OP":"?"}]}
+{"label": "CAUSA", "pattern": [{"LOWER":"perdida"},{"LOWER":"campo"}]}
+{"label": "CAUSA", "pattern": [{"LOWER":"perdida"},{"LOWER":"carga"}]}
+{"label": "CAUSA", "pattern": [{"LOWER":"perdida"},{"LOWER":"excitacion"}]}
+{"label": "CAUSA", "pattern": [{"LOWER":"perdida"},{"LOWER":{"REGEX":"^medida(s)?$"}}]}
+{"label": "CAUSA", "pattern": [{"LOWER":"perdida"},{"LOWER":{"REGEX":"^senal(es)?$"}}]}
+{"label": "CAUSA", "pattern": [{"LOWER":"perdida"},{"LOWER":"voltaje"}]}
+{"label": "CAUSA", "pattern": [{"LOWER":"posicion"},{"LOWER":"incorrecta"}]}
+{"label": "CAUSA", "pattern": [{"LOWER":"presostato"},{"LOWER": {"IN" : ["descalibrado", "danado"]}}]}
+{"label": "CAUSA", "pattern": [{"LOWER":{"REGEX":"^puntos?$"}},{"LOWER":{"REGEX":"^calientes?$"}}]}
+{"label": "CAUSA", "pattern": [{"LOWER":{"REGEX":"^quem(ado|ada)s?$"}}]}
+{"label": "CAUSA", "pattern": [{"LOWER":{"REGEX":"^revent(ado|ada)s?$"}}]}
+{"label": "CAUSA", "pattern": [{"LOWER":{"REGEX":"^r(o|up)tura$"}}]}
+{"label": "CAUSA", "pattern": [{"LOWER":{"REGEX":"^r(o|up)tura$"}},{"LOWER":"cangilon", "OP":"?"}]}
+{"label": "CAUSA", "pattern": [{"LOWER":{"REGEX":"^ruidos?$"}},{"LOWER":{"REGEX":"^anormal(es)?$"}}]}
+{"label": "CAUSA", "pattern": [{"LOWER":{"REGEX":"^senal(es)?$"}},{"LOWER": {"IN" : ["erronea", "erroneas", "incorrecta", "incorrectas"]}}]}
+{"label": "CAUSA", "pattern": [{"LOWER":{"REGEX":"^sobrecalentados?$"}}]}
+{"label": "CAUSA", "pattern": [{"LOWER":"sobrecorriente"}]}
+{"label": "CAUSA", "pattern": [{"LOWER":{"REGEX":"^sobre+xcitacion$"}}]}
+{"label": "CAUSA", "pattern": [{"LOWER":"sobrepresion"}]}
+{"label": "CAUSA", "pattern": [{"LOWER":"sobrevelocidad"}]}
+{"label": "CAUSA", "pattern": [{"LOWER":"sobrevoltaje"}]}
+{"label": "CAUSA", "pattern": [{"LOWER":"software"},{"LOWER":"desactualizado", "OP":"?"}]}
+{"label": "CAUSA", "pattern": [{"LOWER":{"REGEX":"^soportes?$"}},{"LOWER":{"REGEX":"^inestables?$"}}]}
+{"label": "CAUSA", "pattern": [{"LOWER":{"REGEX":"^suelto(o|a)s?$"}}]}
+{"label": "CAUSA", "pattern": [{"LOWER":{"REGEX":"^suci(o|a|edad)s?$"}}]}
+{"label": "CAUSA", "pattern": [{"LOWER":{"REGEX":"^sulfata(cion|do|da)s?$"}},{"LOWER": {"IN" : ["contacto", "contactos", "bornera", "borneras"]},"OP":"?"}]}
+{"label": "CAUSA", "pattern": [{"LOWER":"tarjeta"},{"LOWER":"control"},{"LOWER":"fallada"}]}
+{"label": "CAUSA", "pattern": [{"LOWER":"temperatura"},{"LOWER":"alta"}]}
+{"label": "CAUSA", "pattern": [{"LOWER": {"IN" : ["tension", "voltaje"]}},{"LOWER":"excitacion"},{"LOWER":{"REGEX":"^alt[ao]?$"}}]}
+{"label": "CAUSA", "pattern": [{"LOWER":{"REGEX":"^terminal(es)?$"}},{"LOWER":{"REGEX":"^sueltas?$"}}]}
+{"label": "CAUSA", "pattern": [{"LOWER":"valvula"},{"LOWER":"pegada"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"acople"},{"LOWER":"mecanico", "OP":"?"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"actuador"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":{"REGEX":"^agujas?$"}}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":{"REGEX":"^aislador(es)?$"}},{"LOWER":"bornera", "OP":"?"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"aislamiento"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":{"REGEX":"^alabes?$"}},{"LOWER": {"IN" : ["fijo", "fijos", "movil", "moviles"]}}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"alimentacion"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"alta"},{"LOWER":"temperatura"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":{"REGEX":"^anillos?$"}},{"LOWER":{"REGEX":"^rozantes?$"}}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"apagachispas"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":{"REGEX":"^arran(cador|que)$"}},{"LOWER":"suave", "OP":"?"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"avr"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"bajo"},{"LOWER":"flujo"},{"LOWER": {"IN" : ["aceite", "agua"]},"OP":"?"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"banco"},{"LOWER":"baterias", "OP":"?"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"barra"},{"LOWER":"alimentacion"},{"LOWER":"polos"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":{"REGEX":"^barra(je)?$"}}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":{"REGEX":"^baterias?$"}}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"bloque"},{"LOWER":"conector"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":{"REGEX":"^bobinas?$"}},{"LOWER":"interruptor", "OP":"?"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":{"REGEX":"^(moto)?bomba$"}}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":{"REGEX":"^born(e|era)s?$"}},{"LOWER": {"IN" : ["cable", "cables"]}}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":{"REGEX":"^brazos?$"}},{"LOWER":{"REGEX":"^soportes?$"}}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER": {"FUZZY": "breaker"}}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":{"REGEX":"^bridas?$"}}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":{"REGEX":"^bujes?$"}},{"LOWER":"aislamiento", "OP":"?"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER": {"FUZZY": "bypass"}}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"cabezote"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"caja"},{"LOWER":{"REGEX":"^empalmes?$"}}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"campo"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"cangilon"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"cargador"},{"LOWER":"baterias", "OP":"?"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"cierre"},{"LOWER":"valvula"},{"LOWER":"esferica"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"cilindro"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"cojinete"},{"LOWER": {"IN" : ["combinado", "guia", "inferior", "superior", "turbina"]},"OP":"?"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"colector"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"comando"},{"LOWER":"seccionador"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"computador"},{"LOWER":"unidad", "OP":"?"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":{"REGEX":"^condensador(es)?$"}}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":{"REGEX":"^conector(es)?$"}}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":{"REGEX":"^conmuta(cion|dor)$"}}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":{"REGEX":"^contactor(es)?$"}}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"contrachorro"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":{"REGEX":"^control(ador)?$"}}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"control"},{"LOWER": {"IN" : ["interruptor", "turbina", "unidad"]}}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":{"REGEX":"^control(ador)?$"}},{"LOWER":{"REGEX":"quemados?$"}}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"controlador"},{"LOWER":"transferencia"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"cpu"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"crowbar"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"cuba"},{"LOWER":"cojinete", "OP":"?"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"deflector"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"devanado"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"digipid"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"dispositivo"},{"LOWER":"sobreflujo"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"distribuidor"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"driver"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":{"REGEX":"^eductor(es)?$"}}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":{"REGEX":"^(electro)?valvulas?$"}}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"valvula"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":{"REGEX":"^empaques?$"}}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"enlace"},{"LOWER":"red"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":{"REGEX":"^escobillas?$"}},{"LOWER":"excitacion", "OP":"?"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"estacion"},{"LOWER":"hidraulica"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"estator"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"exc?itacion"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"fibra"},{"LOWER":"optica", "OP":"?"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":{"REGEX":"^filtros?$"}}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"filtro"},{"LOWER": {"IN" : ["autolimpiante", "sello"]}}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"flujo"},{"LOWER": {"IN" : ["aceite", "agua"]},"OP":"?"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"flujometro"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":{"REGEX":"^frenos?$"}}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":{"REGEX":"^frenos?$"}},{"LOWER":"pegada"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":{"REGEX":"^fuentes?$"}},{"LOWER": {"IN" : ["acdc", "regulada", "alimentacion"]},"OP":"?"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":{"REGEX":"^fusibles?$"}},{"LOWER":"puente", "OP":"?"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":{"REGEX":"^granadas?$"}}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"guardamotor"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"ihm"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"instrumentacion"},{"LOWER": {"IN" : ["turbina", "transformador", "generador", "conducción"]},"OP":"?"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"intercambiador"},{"LOWER":"calor", "OP":"?"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":{"REGEX":"^interruptor(es)?$"}}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"interruptor"},{"LOWER": {"IN" : ["excitacion", "maquina", "potencia", "unidad"]},"OP":"?"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":{"REGEX":"^inversor(es)?$"}}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":{"REGEX":"^inyector(es)?$"}}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"junta"},{"LOWER":"expansion"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"lazo"},{"LOWER":"profibus"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"linking"},{"LOWER":"device"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"manguera"},{"LOWER":"aire", "OP":"?"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"mecanismo"},{"LOWER":"apertura", "OP":"?"},{"LOWER":"cierre", "OP":"?"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":{"REGEX":"^medid(a|or)$"}}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"medida"},{"LOWER":"potencia"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":{"REGEX":"^(micro)?s[uw]it?che?s?$"}}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"mini+interruptor"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":{"REGEX":"^modulos?$"}}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"modulo"},{"LOWER": {"IN" : ["cio", "electronico", "entradas", "profibus", "rtd"]},"OP":"?"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":{"REGEX":"^(moto)?bomba$"}},{"LOWER":"fusionado"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"motobomba"},{"LOWER":"drenaje"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"motor"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"neutro"},{"LOWER":"tierra", "OP":"?"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":{"REGEX":"^niples?$"}}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"nivel"},{"LOWER": {"IN" : ["aceite", "sf6"]},"OP":"?"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"nivel"},{"LOWER":"bocatoma"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"ojiva"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"parada"},{"LOWER":"emergencia"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"perilla"},{"LOWER":"selectora"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"perno"},{"LOWER":"fusible", "OP":"?"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":{"REGEX":"^pernofusibles?$"}}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"piston"},{"LOWER":"pegada"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"plc"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":{"REGEX":"^polos?$"}}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":{"REGEX":"^portajuntas?$"}}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":{"REGEX":"^portadiodos?$"}}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":{"REGEX":"^portaescobillas?$"}}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":{"REGEX":"^portafusibles?$"}}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"presion"},{"LOWER": {"IN" : ["tuberia", "tanque"]}}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"presostato"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"proteccion"},{"LOWER":"diferencial"},{"LOWER": {"IN" : ["transformador", "generador"]},"OP":"?"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"puente"},{"LOWER": {"IN" : ["rectificador", "tiristores"]},"OP":"?"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":{"REGEX":"^rac+ord?$"}}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":{"REGEX":"^radiador(es)?$"}}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"rastrillo"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"red"},{"LOWER": {"IN" : ["comunicacion","comunicaciones", "modbus", "profibus"]},"OP":"?"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"refrigeracion"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"regulador"},{"LOWER": {"IN" : ["electronico", "tension", "velocidad"]},"OP":"?"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"rejilla"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":{"REGEX":"^reles?$"}}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"rele"},{"LOWER":"auxiliar"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"rele"},{"LOWER": {"FUZZY": "buchollz"}}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"rele"},{"LOWER":"paro"},{"LOWER":"parcial"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"rele"},{"LOWER":"proteccion"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"rele"},{"LOWER":"sel"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":{"REGEX":"^reles?$"}},{"LOWER":{"REGEX":"^comparador(es)?$"}}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"resorte"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"retenedor"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"rodete"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"rotor"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"rtd"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"rtd"},{"LOWER":"radiadores"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"rtu"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"rueda"},{"LOWER":"dentada"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"seccionador"},{"LOWER":"maquina", "OP":"?"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"secuencia"},{"LOWER":"paro"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"selector"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":{"REGEX":"^sellos?$"}},{"LOWER":"eje", "OP":"?"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":{"REGEX":"^sensor(es)?$"}}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"sensor"},{"LOWER":{"REGEX":"^alabes?$"}}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"sensor"},{"LOWER":"contaminacion"},{"LOWER":"aire", "OP":"?"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"sensor"},{"LOWER":"final"},{"LOWER":"carrera"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"sensor"},{"LOWER":"frenos"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"sensor"},{"LOWER":"humo"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"sensor"},{"LOWER":"inductivo"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"sensor"},{"LOWER":"nivel"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"sensor"},{"LOWER":"posicion"},{"LOWER": {"IN" : ["compuerta", "servomotor"]},"OP":"?"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"sensor"},{"LOWER":"presion"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"sensor"},{"LOWER":"proximidad"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"sensor"},{"LOWER":"puerta"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"sensor"},{"LOWER":"temperatura"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"sensor"},{"LOWER":"vibraciones"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"serpentin"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"servomotor"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"servomotor"},{"LOWER":{"REGEX":"^deflector(es)?$"}}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"servomotor"},{"LOWER":"distribuidor"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"servomotor"},{"LOWER":{"REGEX":"^inyector(es)?$"}}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"servomotor"},{"LOWER":"valvula"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"sincronizador"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"sincronoscopio"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"sistema"},{"LOWER": {"IN" : ["contraincendio", "hidraulico", "neumatico", "sobreflujo"]}}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"valvula"},{"LOWER": {"IN" : ["contraincendio", "hidraulico", "neumatico", "sobreflujo"]}}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":{"REGEX":"^fugas?$"}},{"LOWER": {"IN" : ["contraincendio", "hidraulico", "neumatico", "sobreflujo"]}}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"alto"},{"LOWER": {"IN" : ["contraincendio", "hidraulico", "neumatico", "sobreflujo"]}}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"sobrepresion"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"software"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":{"REGEX":"^soportes?$"}}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":{"REGEX":"^s[uw]it?che?s?$"}},{"LOWER":{"REGEX":"^comunicacion(es)?$"}}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":{"REGEX":"^s[uw]it?che?s?$"}},{"LOWER":{"REGEX":"^controlador(es)?$"}}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"tablero"},{"LOWER":"control", "OP":"?"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"tanque"},{"LOWER": {"IN" : ["acumulador", "conservador", "sumidero"]},"OP":"?"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"tapa"},{"LOWER":"cojinete", "OP":"?"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"tarjeta"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"tarjeta"},{"LOWER":"amplificadora"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"tarjeta"},{"LOWER":{"REGEX":"^comunicacion(es)?$"}}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"tarjeta"},{"LOWER":"disparo"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"tarjeta"},{"LOWER":"electronica"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"tarjeta"},{"LOWER":"evfpcb"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"tarjeta"},{"LOWER":"gpa"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"tdp"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"temperatura"},{"LOWER": {"IN" : ["aceite", "cojinete", "metal"]},"OP":"?"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"temperatura"},{"LOWER":{"REGEX":"^devanados?$"}},{"LOWER":"transformador", "OP":"?"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"termico"},{"LOWER":"alimentacion", "OP":"?"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":{"REGEX":"^terminal(es)?$"}}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":{"REGEX":"^termo(metro|stato)$"}}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"tierra"},{"LOWER":"rotor"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":{"REGEX":"^tiristor(es)?$"}}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":{"REGEX":"^tornillos?$"}}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"tpu"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"transductor"},{"LOWER": {"IN" : ["medida", "posicion", "potencia"]},"OP":"?"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"transferencia"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER": {"IN" : ["transformador", "trafo", "trf"]}},{"LOWER": {"IN" : ["control", "corriente", "potencial", "potencia", "excitacion"]},"OP":"?"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"transmisor"},{"LOWER":"temperatura", "OP":"?"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"tuberia"},{"LOWER": {"IN" : ["agua", "aceite", "refrigeracion"]},"OP":"?"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":{"REGEX":"^tuercas?$"}}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"unidad"},{"LOWER":"motorizada"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"ups"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":{"REGEX":"^valvulas?$"}}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"valvula"},{"LOWER":"actuadora"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"valvula"},{"LOWER":"admision"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"valvula"},{"LOWER":"aire"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"valvula"},{"LOWER":"aislamiento"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"valvula"},{"LOWER":"alivio"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"valvula"},{"LOWER":"apertura"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"valvula"},{"LOWER":"distribuidora"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"valvula"},{"LOWER":"drenaje"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"valvula"},{"LOWER":"esferica"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"valvula"},{"LOWER":"intermitencia"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"valvula"},{"LOWER":"inyeccion"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"valvula"},{"LOWER":"mariposa"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"valvula"},{"LOWER":"moog"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"valvula"},{"LOWER":"motorizada"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"valvula"},{"LOWER":"piloto"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"valvula"},{"LOWER":"proporcional"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"valvula"},{"LOWER":"purga"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"valvula"},{"LOWER":"sobreflujo"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"valvula"},{"LOWER":"vias"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"variador"},{"LOWER": {"IN" : ["frecuencia", "velocidad"]},"OP":"?"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"vastago"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"ventilador"}]}
+{"label": "COMPONENTE", "pattern": [{"LOWER":"zapatas?"}]}
